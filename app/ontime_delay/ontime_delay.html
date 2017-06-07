@@ -1,0 +1,37 @@
+<h1>Report on-time & Delayed deliveries</h1>
+
+<div ng-controller="OntimeDelayCtrl" class="container">
+
+  <div class="row">
+    <div class="col-md-4">
+      <input placeholder="Search by Company name" class="form-control input-group ng-pristine ng-valid ng-touched" style="" type="text">
+      <i aria-hidden="true" class="fa fa-times font-img font-img1"></i>
+    </div> 
+    <div class="col-md-2">
+      <button type="button" class="btn btn-info">Last 7 days <span class="caret"></span></button>
+    </div>
+    <div class="col-md-2">
+      Sort By :
+      <button type="button" class="btn btn-info">On Time <span class="caret"></span></button>
+    </div>
+    <div class="col-md-4">
+      <nav class="navbar navbar-default">
+      <div class="container">
+      <div class="navbar-header"><a class="navbar-brand">Show :</a></div>
+      <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Pie Chart</a></li>
+              <li><a href="#">Bar Chart</a></li>
+            </ul>
+      </div>
+      </div>
+      </nav>
+    </div>
+  </div>
+  <div class="row">
+    <div ng-repeat="entry in onTimeDelayDS">
+      <div fusioncharts width="400" height="300" type="pie3d" dataSource="{{entry}}" class="col-md-4">
+      </div>
+    </div>
+  </div>
+</div>

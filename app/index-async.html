@@ -31,11 +31,9 @@
       'bower_components/angular/angular.js',
       'bower_components/angular-route/angular-route.js',
       'app.js',
-      'view1/view1.js',
-      'view2/view2.js',
-      'components/version/version.js',
-      'components/version/version-directive.js',
-      'components/version/interpolate-filter.js'
+      'reports/reports.js',
+      'ontime_delay/ontime_delay.js',
+      'components/fusioncharts.min.js'
     ], function() {
       // when all is done, execute bootstrap angular application
       angular.bootstrap(document, ['myApp']);
@@ -45,14 +43,10 @@
   <link rel="stylesheet" href="app.css">
 </head>
 <body ng-cloak>
-  <ul class="menu">
-    <li><a href="#!/view1">view1</a></li>
-    <li><a href="#!/view2">view2</a></li>
-  </ul>
-
+ 
   <div ng-view></div>
 
-  <div>Angular seed app: v<span app-version></span></div>
+  <div>Angular seed app: v</div>
 
 </body>
 </html>

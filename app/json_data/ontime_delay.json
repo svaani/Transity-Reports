@@ -1,0 +1,58 @@
+{
+    "result": [
+        {
+            "companyId": 6,
+            "companyName": "Super Fast Transporter",
+            "onTimeCount": 15,
+            "onTimePercentage": 75,
+            "delayedCount": 5,
+            "delayedPercentage": 25,
+            "totalNoOfTransactions": 20
+        },
+        {
+            "companyId": 11,
+            "companyName": "Chennai Transports",
+            "onTimeCount": 8,
+            "onTimePercentage": 80,
+            "delayedCount": 2,
+            "delayedPercentage": 20,
+            "totalNoOfTransactions": 10
+        },
+        {
+            "companyId": 12,
+            "companyName": "Indi Transports",
+            "onTimeCount": 3,
+            "onTimePercentage": 60,
+            "delayedCount": 2,
+            "delayedPercentage": 40,
+            "totalNoOfTransactions": 5
+        },
+        {
+            "companyId": 55,
+            "companyName": "Hello Transports",
+            "onTimeCount": 20,
+            "onTimePercentage": 40,
+            "delayedCount": 30,
+            "delayedPercentage": 60,
+            "totalNoOfTransactions": 50
+        },
+        {
+            "companyId": 32,
+            "companyName": "Excellent Transports",
+            "onTimeCount": 20,
+            "onTimePercentage": 80,
+            "delayedCount": 5,
+            "delayedPercentage": 20,
+            "totalNoOfTransactions": 25
+        },
+        {
+            "companyId": 23,
+            "companyName": "Champs Transports",
+            "onTimeCount": 10,
+            "onTimePercentage": 50,
+            "delayedCount": 10,
+            "delayedPercentage": 50,
+            "totalNoOfTransactions": 20
+        }
+    ]
+}
